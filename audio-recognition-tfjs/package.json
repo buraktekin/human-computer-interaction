@@ -1,0 +1,29 @@
+{
+  "name": "audio-recognition-tfjs",
+  "version": "0.0.1",
+  "description": "A Javascript based on-browser speech recognition application runs on node server. ",
+  "main": "bin/www/index.js",
+  "author": "Burak Tekin",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest",
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.1.2",
+    "@tensorflow/tfjs-node": "^1.1.2",
+    "eslint": "^5.16.0",
+    "express": "^4.16.4",
+    "jest": "^24.8.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
