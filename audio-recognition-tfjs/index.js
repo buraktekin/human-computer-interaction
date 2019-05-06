@@ -1,5 +1,7 @@
 require("babel-core/register");
 require("babel-polyfill");
+require("./style.scss");
+
 const speechCommands = require('@tensorflow-models/speech-commands');
 
 let recognizer;
@@ -36,7 +38,7 @@ function predict(context, positionx, positiony) {
         context.stroke();
         positionx = x1;
         positiony = y1;
-    }, {probabilityThreshold: 0.99});
+    }, { probabilityThreshold: 0.99 });
 }
 
 const run = async () => {
@@ -46,10 +48,10 @@ const run = async () => {
     // Create canvas for drawing and center the drawer
     let canvas = document.getElementById("canvas");
     let context = canvas.getContext("2d");
-    let positionx = 400; // Since canvas width set to 800px
-    let positiony = 300; // Since canvas height set to 600px
+    let positionx = canvas.width / 2; // Since canvas width set to 800px
+    let positiony = canvas.height / 2; // Since canvas height set to 600px
 
-    context.lineWidth = 10;
+    context.lineWidth = canvas.width / 80 > 2 ? canvas.width / 100 : 2;
     context.lineJoin = 'round';
     predict(context, positionx, positiony);
 };

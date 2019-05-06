@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@tensorflow-models/speech-commands": "^0.3.6"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.3"
-  }
-}

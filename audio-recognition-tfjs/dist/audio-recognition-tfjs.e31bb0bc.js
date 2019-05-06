@@ -7316,7 +7316,7 @@ require('./modules/web.immediate');
 require('./modules/web.dom.iterable');
 module.exports = require('./modules/_core');
 
-},{"./modules/es6.symbol":"node_modules/core-js/modules/es6.symbol.js","./modules/es6.object.create":"node_modules/core-js/modules/es6.object.create.js","./modules/es6.object.define-property":"node_modules/core-js/modules/es6.object.define-property.js","./modules/es6.object.define-properties":"node_modules/core-js/modules/es6.object.define-properties.js","./modules/es6.object.get-own-property-descriptor":"node_modules/core-js/modules/es6.object.get-own-property-descriptor.js","./modules/es6.object.get-prototype-of":"node_modules/core-js/modules/es6.object.get-prototype-of.js","./modules/es6.object.keys":"node_modules/core-js/modules/es6.object.keys.js","./modules/es6.object.get-own-property-names":"node_modules/core-js/modules/es6.object.get-own-property-names.js","./modules/es6.object.freeze":"node_modules/core-js/modules/es6.object.freeze.js","./modules/es6.object.seal":"node_modules/core-js/modules/es6.object.seal.js","./modules/es6.object.prevent-extensions":"node_modules/core-js/modules/es6.object.prevent-extensions.js","./modules/es6.object.is-frozen":"node_modules/core-js/modules/es6.object.is-frozen.js","./modules/es6.object.is-sealed":"node_modules/core-js/modules/es6.object.is-sealed.js","./modules/es6.object.is-extensible":"node_modules/core-js/modules/es6.object.is-extensible.js","./modules/es6.object.assign":"node_modules/core-js/modules/es6.object.assign.js","./modules/es6.object.is":"node_modules/core-js/modules/es6.object.is.js","./modules/es6.object.set-prototype-of":"node_modules/core-js/modules/es6.object.set-prototype-of.js","./modules/es6.object.to-string":"node_modules/core-js/modules/es6.object.to-string.js","./modules/es6.function.bind":"node_modules/core-js/modules/es6.function.bind.js","./modules/es6.function.name":"node_modules/core-js/modules/es6.function.name.js","./modules/es6.function.has-instance":"node_modules/core-js/modules/es6.function.has-instance.js","./modules/es6.parse-int":"node_modules/core-js/modules/es6.parse-int.js","./modules/es6.parse-float":"node_modules/core-js/modules/es6.parse-float.js","./modules/es6.number.constructor":"node_modules/core-js/modules/es6.number.constructor.js","./modules/es6.number.to-fixed":"node_modules/core-js/modules/es6.number.to-fixed.js","./modules/es6.number.to-precision":"node_modules/core-js/modules/es6.number.to-precision.js","./modules/es6.number.epsilon":"node_modules/core-js/modules/es6.number.epsilon.js","./modules/es6.number.is-finite":"node_modules/core-js/modules/es6.number.is-finite.js","./modules/es6.number.is-integer":"node_modules/core-js/modules/es6.number.is-integer.js","./modules/es6.number.is-nan":"node_modules/core-js/modules/es6.number.is-nan.js","./modules/es6.number.is-safe-integer":"node_modules/core-js/modules/es6.number.is-safe-integer.js","./modules/es6.number.max-safe-integer":"node_modules/core-js/modules/es6.number.max-safe-integer.js","./modules/es6.number.min-safe-integer":"node_modules/core-js/modules/es6.number.min-safe-integer.js","./modules/es6.number.parse-float":"node_modules/core-js/modules/es6.number.parse-float.js","./modules/es6.number.parse-int":"node_modules/core-js/modules/es6.number.parse-int.js","./modules/es6.math.acosh":"node_modules/core-js/modules/es6.math.acosh.js","./modules/es6.math.asinh":"node_modules/core-js/modules/es6.math.asinh.js","./modules/es6.math.atanh":"node_modules/core-js/modules/es6.math.atanh.js","./modules/es6.math.cbrt":"node_modules/core-js/modules/es6.math.cbrt.js","./modules/es6.math.clz32":"node_modules/core-js/modules/es6.math.clz32.js","./modules/es6.math.cosh":"node_modules/core-js/modules/es6.math.cosh.js","./modules/es6.math.expm1":"node_modules/core-js/modules/es6.math.expm1.js","./modules/es6.math.fround":"node_modules/core-js/modules/es6.math.fround.js","./modules/es6.math.hypot":"node_modules/core-js/modules/es6.math.hypot.js","./modules/es6.math.imul":"node_modules/core-js/modules/es6.math.imul.js","./modules/es6.math.log10":"node_modules/core-js/modules/es6.math.log10.js","./modules/es6.math.log1p":"node_modules/core-js/modules/es6.math.log1p.js","./modules/es6.math.log2":"node_modules/core-js/modules/es6.math.log2.js","./modules/es6.math.sign":"node_modules/core-js/modules/es6.math.sign.js","./modules/es6.math.sinh":"node_modules/core-js/modules/es6.math.sinh.js","./modules/es6.math.tanh":"node_modules/core-js/modules/es6.math.tanh.js","./modules/es6.math.trunc":"node_modules/core-js/modules/es6.math.trunc.js","./modules/es6.string.from-code-point":"node_modules/core-js/modules/es6.string.from-code-point.js","./modules/es6.string.raw":"node_modules/core-js/modules/es6.string.raw.js","./modules/es6.string.trim":"node_modules/core-js/modules/es6.string.trim.js","./modules/es6.string.iterator":"node_modules/core-js/modules/es6.string.iterator.js","./modules/es6.string.code-point-at":"node_modules/core-js/modules/es6.string.code-point-at.js","./modules/es6.string.ends-with":"node_modules/core-js/modules/es6.string.ends-with.js","./modules/es6.string.includes":"node_modules/core-js/modules/es6.string.includes.js","./modules/es6.string.repeat":"node_modules/core-js/modules/es6.string.repeat.js","./modules/es6.string.starts-with":"node_modules/core-js/modules/es6.string.starts-with.js","./modules/es6.string.anchor":"node_modules/core-js/modules/es6.string.anchor.js","./modules/es6.string.big":"node_modules/core-js/modules/es6.string.big.js","./modules/es6.string.blink":"node_modules/core-js/modules/es6.string.blink.js","./modules/es6.string.bold":"node_modules/core-js/modules/es6.string.bold.js","./modules/es6.string.fixed":"node_modules/core-js/modules/es6.string.fixed.js","./modules/es6.string.fontcolor":"node_modules/core-js/modules/es6.string.fontcolor.js","./modules/es6.string.fontsize":"node_modules/core-js/modules/es6.string.fontsize.js","./modules/es6.string.italics":"node_modules/core-js/modules/es6.string.italics.js","./modules/es6.string.link":"node_modules/core-js/modules/es6.string.link.js","./modules/es6.string.small":"node_modules/core-js/modules/es6.string.small.js","./modules/es6.string.strike":"node_modules/core-js/modules/es6.string.strike.js","./modules/es6.string.sub":"node_modules/core-js/modules/es6.string.sub.js","./modules/es6.string.sup":"node_modules/core-js/modules/es6.string.sup.js","./modules/es6.date.now":"node_modules/core-js/modules/es6.date.now.js","./modules/es6.date.to-json":"node_modules/core-js/modules/es6.date.to-json.js","./modules/es6.date.to-iso-string":"node_modules/core-js/modules/es6.date.to-iso-string.js","./modules/es6.date.to-string":"node_modules/core-js/modules/es6.date.to-string.js","./modules/es6.date.to-primitive":"node_modules/core-js/modules/es6.date.to-primitive.js","./modules/es6.array.is-array":"node_modules/core-js/modules/es6.array.is-array.js","./modules/es6.array.from":"node_modules/core-js/modules/es6.array.from.js","./modules/es6.array.of":"node_modules/core-js/modules/es6.array.of.js","./modules/es6.array.join":"node_modules/core-js/modules/es6.array.join.js","./modules/es6.array.slice":"node_modules/core-js/modules/es6.array.slice.js","./modules/es6.array.sort":"node_modules/core-js/modules/es6.array.sort.js","./modules/es6.array.for-each":"node_modules/core-js/modules/es6.array.for-each.js","./modules/es6.array.map":"node_modules/core-js/modules/es6.array.map.js","./modules/es6.array.filter":"node_modules/core-js/modules/es6.array.filter.js","./modules/es6.array.some":"node_modules/core-js/modules/es6.array.some.js","./modules/es6.array.every":"node_modules/core-js/modules/es6.array.every.js","./modules/es6.array.reduce":"node_modules/core-js/modules/es6.array.reduce.js","./modules/es6.array.reduce-right":"node_modules/core-js/modules/es6.array.reduce-right.js","./modules/es6.array.index-of":"node_modules/core-js/modules/es6.array.index-of.js","./modules/es6.array.last-index-of":"node_modules/core-js/modules/es6.array.last-index-of.js","./modules/es6.array.copy-within":"node_modules/core-js/modules/es6.array.copy-within.js","./modules/es6.array.fill":"node_modules/core-js/modules/es6.array.fill.js","./modules/es6.array.find":"node_modules/core-js/modules/es6.array.find.js","./modules/es6.array.find-index":"node_modules/core-js/modules/es6.array.find-index.js","./modules/es6.array.species":"node_modules/core-js/modules/es6.array.species.js","./modules/es6.array.iterator":"node_modules/core-js/modules/es6.array.iterator.js","./modules/es6.regexp.constructor":"node_modules/core-js/modules/es6.regexp.constructor.js","./modules/es6.regexp.exec":"node_modules/core-js/modules/es6.regexp.exec.js","./modules/es6.regexp.to-string":"node_modules/core-js/modules/es6.regexp.to-string.js","./modules/es6.regexp.flags":"node_modules/core-js/modules/es6.regexp.flags.js","./modules/es6.regexp.match":"node_modules/core-js/modules/es6.regexp.match.js","./modules/es6.regexp.replace":"node_modules/core-js/modules/es6.regexp.replace.js","./modules/es6.regexp.search":"node_modules/core-js/modules/es6.regexp.search.js","./modules/es6.regexp.split":"node_modules/core-js/modules/es6.regexp.split.js","./modules/es6.promise":"node_modules/core-js/modules/es6.promise.js","./modules/es6.map":"node_modules/core-js/modules/es6.map.js","./modules/es6.set":"node_modules/core-js/modules/es6.set.js","./modules/es6.weak-map":"node_modules/core-js/modules/es6.weak-map.js","./modules/es6.weak-set":"node_modules/core-js/modules/es6.weak-set.js","./modules/es6.typed.array-buffer":"node_modules/core-js/modules/es6.typed.array-buffer.js","./modules/es6.typed.data-view":"node_modules/core-js/modules/es6.typed.data-view.js","./modules/es6.typed.int8-array":"node_modules/core-js/modules/es6.typed.int8-array.js","./modules/es6.typed.uint8-array":"node_modules/core-js/modules/es6.typed.uint8-array.js","./modules/es6.typed.uint8-clamped-array":"node_modules/core-js/modules/es6.typed.uint8-clamped-array.js","./modules/es6.typed.int16-array":"node_modules/core-js/modules/es6.typed.int16-array.js","./modules/es6.typed.uint16-array":"node_modules/core-js/modules/es6.typed.uint16-array.js","./modules/es6.typed.int32-array":"node_modules/core-js/modules/es6.typed.int32-array.js","./modules/es6.typed.uint32-array":"node_modules/core-js/modules/es6.typed.uint32-array.js","./modules/es6.typed.float32-array":"node_modules/core-js/modules/es6.typed.float32-array.js","./modules/es6.typed.float64-array":"node_modules/core-js/modules/es6.typed.float64-array.js","./modules/es6.reflect.apply":"node_modules/core-js/modules/es6.reflect.apply.js","./modules/es6.reflect.construct":"node_modules/core-js/modules/es6.reflect.construct.js","./modules/es6.reflect.define-property":"node_modules/core-js/modules/es6.reflect.define-property.js","./modules/es6.reflect.delete-property":"node_modules/core-js/modules/es6.reflect.delete-property.js","./modules/es6.reflect.enumerate":"node_modules/core-js/modules/es6.reflect.enumerate.js","./modules/es6.reflect.get":"node_modules/core-js/modules/es6.reflect.get.js","./modules/es6.reflect.get-own-property-descriptor":"node_modules/core-js/modules/es6.reflect.get-own-property-descriptor.js","./modules/es6.reflect.get-prototype-of":"node_modules/core-js/modules/es6.reflect.get-prototype-of.js","./modules/es6.reflect.has":"node_modules/core-js/modules/es6.reflect.has.js","./modules/es6.reflect.is-extensible":"node_modules/core-js/modules/es6.reflect.is-extensible.js","./modules/es6.reflect.own-keys":"node_modules/core-js/modules/es6.reflect.own-keys.js","./modules/es6.reflect.prevent-extensions":"node_modules/core-js/modules/es6.reflect.prevent-extensions.js","./modules/es6.reflect.set":"node_modules/core-js/modules/es6.reflect.set.js","./modules/es6.reflect.set-prototype-of":"node_modules/core-js/modules/es6.reflect.set-prototype-of.js","./modules/es7.array.includes":"node_modules/core-js/modules/es7.array.includes.js","./modules/es7.array.flat-map":"node_modules/core-js/modules/es7.array.flat-map.js","./modules/es7.array.flatten":"node_modules/core-js/modules/es7.array.flatten.js","./modules/es7.string.at":"node_modules/core-js/modules/es7.string.at.js","./modules/es7.string.pad-start":"node_modules/core-js/modules/es7.string.pad-start.js","./modules/es7.string.pad-end":"node_modules/core-js/modules/es7.string.pad-end.js","./modules/es7.string.trim-left":"node_modules/core-js/modules/es7.string.trim-left.js","./modules/es7.string.trim-right":"node_modules/core-js/modules/es7.string.trim-right.js","./modules/es7.string.match-all":"node_modules/core-js/modules/es7.string.match-all.js","./modules/es7.symbol.async-iterator":"node_modules/core-js/modules/es7.symbol.async-iterator.js","./modules/es7.symbol.observable":"node_modules/core-js/modules/es7.symbol.observable.js","./modules/es7.object.get-own-property-descriptors":"node_modules/core-js/modules/es7.object.get-own-property-descriptors.js","./modules/es7.object.values":"node_modules/core-js/modules/es7.object.values.js","./modules/es7.object.entries":"node_modules/core-js/modules/es7.object.entries.js","./modules/es7.object.define-getter":"node_modules/core-js/modules/es7.object.define-getter.js","./modules/es7.object.define-setter":"node_modules/core-js/modules/es7.object.define-setter.js","./modules/es7.object.lookup-getter":"node_modules/core-js/modules/es7.object.lookup-getter.js","./modules/es7.object.lookup-setter":"node_modules/core-js/modules/es7.object.lookup-setter.js","./modules/es7.map.to-json":"node_modules/core-js/modules/es7.map.to-json.js","./modules/es7.set.to-json":"node_modules/core-js/modules/es7.set.to-json.js","./modules/es7.map.of":"node_modules/core-js/modules/es7.map.of.js","./modules/es7.set.of":"node_modules/core-js/modules/es7.set.of.js","./modules/es7.weak-map.of":"node_modules/core-js/modules/es7.weak-map.of.js","./modules/es7.weak-set.of":"node_modules/core-js/modules/es7.weak-set.of.js","./modules/es7.map.from":"node_modules/core-js/modules/es7.map.from.js","./modules/es7.set.from":"node_modules/core-js/modules/es7.set.from.js","./modules/es7.weak-map.from":"node_modules/core-js/modules/es7.weak-map.from.js","./modules/es7.weak-set.from":"node_modules/core-js/modules/es7.weak-set.from.js","./modules/es7.global":"node_modules/core-js/modules/es7.global.js","./modules/es7.system.global":"node_modules/core-js/modules/es7.system.global.js","./modules/es7.error.is-error":"node_modules/core-js/modules/es7.error.is-error.js","./modules/es7.math.clamp":"node_modules/core-js/modules/es7.math.clamp.js","./modules/es7.math.deg-per-rad":"node_modules/core-js/modules/es7.math.deg-per-rad.js","./modules/es7.math.degrees":"node_modules/core-js/modules/es7.math.degrees.js","./modules/es7.math.fscale":"node_modules/core-js/modules/es7.math.fscale.js","./modules/es7.math.iaddh":"node_modules/core-js/modules/es7.math.iaddh.js","./modules/es7.math.isubh":"node_modules/core-js/modules/es7.math.isubh.js","./modules/es7.math.imulh":"node_modules/core-js/modules/es7.math.imulh.js","./modules/es7.math.rad-per-deg":"node_modules/core-js/modules/es7.math.rad-per-deg.js","./modules/es7.math.radians":"node_modules/core-js/modules/es7.math.radians.js","./modules/es7.math.scale":"node_modules/core-js/modules/es7.math.scale.js","./modules/es7.math.umulh":"node_modules/core-js/modules/es7.math.umulh.js","./modules/es7.math.signbit":"node_modules/core-js/modules/es7.math.signbit.js","./modules/es7.promise.finally":"node_modules/core-js/modules/es7.promise.finally.js","./modules/es7.promise.try":"node_modules/core-js/modules/es7.promise.try.js","./modules/es7.reflect.define-metadata":"node_modules/core-js/modules/es7.reflect.define-metadata.js","./modules/es7.reflect.delete-metadata":"node_modules/core-js/modules/es7.reflect.delete-metadata.js","./modules/es7.reflect.get-metadata":"node_modules/core-js/modules/es7.reflect.get-metadata.js","./modules/es7.reflect.get-metadata-keys":"node_modules/core-js/modules/es7.reflect.get-metadata-keys.js","./modules/es7.reflect.get-own-metadata":"node_modules/core-js/modules/es7.reflect.get-own-metadata.js","./modules/es7.reflect.get-own-metadata-keys":"node_modules/core-js/modules/es7.reflect.get-own-metadata-keys.js","./modules/es7.reflect.has-metadata":"node_modules/core-js/modules/es7.reflect.has-metadata.js","./modules/es7.reflect.has-own-metadata":"node_modules/core-js/modules/es7.reflect.has-own-metadata.js","./modules/es7.reflect.metadata":"node_modules/core-js/modules/es7.reflect.metadata.js","./modules/es7.asap":"node_modules/core-js/modules/es7.asap.js","./modules/es7.observable":"node_modules/core-js/modules/es7.observable.js","./modules/web.timers":"node_modules/core-js/modules/web.timers.js","./modules/web.immediate":"node_modules/core-js/modules/web.immediate.js","./modules/web.dom.iterable":"node_modules/core-js/modules/web.dom.iterable.js","./modules/_core":"node_modules/core-js/modules/_core.js"}],"node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js":[function(require,module,exports) {
+},{"./modules/es6.symbol":"node_modules/core-js/modules/es6.symbol.js","./modules/es6.object.create":"node_modules/core-js/modules/es6.object.create.js","./modules/es6.object.define-property":"node_modules/core-js/modules/es6.object.define-property.js","./modules/es6.object.define-properties":"node_modules/core-js/modules/es6.object.define-properties.js","./modules/es6.object.get-own-property-descriptor":"node_modules/core-js/modules/es6.object.get-own-property-descriptor.js","./modules/es6.object.get-prototype-of":"node_modules/core-js/modules/es6.object.get-prototype-of.js","./modules/es6.object.keys":"node_modules/core-js/modules/es6.object.keys.js","./modules/es6.object.get-own-property-names":"node_modules/core-js/modules/es6.object.get-own-property-names.js","./modules/es6.object.freeze":"node_modules/core-js/modules/es6.object.freeze.js","./modules/es6.object.seal":"node_modules/core-js/modules/es6.object.seal.js","./modules/es6.object.prevent-extensions":"node_modules/core-js/modules/es6.object.prevent-extensions.js","./modules/es6.object.is-frozen":"node_modules/core-js/modules/es6.object.is-frozen.js","./modules/es6.object.is-sealed":"node_modules/core-js/modules/es6.object.is-sealed.js","./modules/es6.object.is-extensible":"node_modules/core-js/modules/es6.object.is-extensible.js","./modules/es6.object.assign":"node_modules/core-js/modules/es6.object.assign.js","./modules/es6.object.is":"node_modules/core-js/modules/es6.object.is.js","./modules/es6.object.set-prototype-of":"node_modules/core-js/modules/es6.object.set-prototype-of.js","./modules/es6.object.to-string":"node_modules/core-js/modules/es6.object.to-string.js","./modules/es6.function.bind":"node_modules/core-js/modules/es6.function.bind.js","./modules/es6.function.name":"node_modules/core-js/modules/es6.function.name.js","./modules/es6.function.has-instance":"node_modules/core-js/modules/es6.function.has-instance.js","./modules/es6.parse-int":"node_modules/core-js/modules/es6.parse-int.js","./modules/es6.parse-float":"node_modules/core-js/modules/es6.parse-float.js","./modules/es6.number.constructor":"node_modules/core-js/modules/es6.number.constructor.js","./modules/es6.number.to-fixed":"node_modules/core-js/modules/es6.number.to-fixed.js","./modules/es6.number.to-precision":"node_modules/core-js/modules/es6.number.to-precision.js","./modules/es6.number.epsilon":"node_modules/core-js/modules/es6.number.epsilon.js","./modules/es6.number.is-finite":"node_modules/core-js/modules/es6.number.is-finite.js","./modules/es6.number.is-integer":"node_modules/core-js/modules/es6.number.is-integer.js","./modules/es6.number.is-nan":"node_modules/core-js/modules/es6.number.is-nan.js","./modules/es6.number.is-safe-integer":"node_modules/core-js/modules/es6.number.is-safe-integer.js","./modules/es6.number.max-safe-integer":"node_modules/core-js/modules/es6.number.max-safe-integer.js","./modules/es6.number.min-safe-integer":"node_modules/core-js/modules/es6.number.min-safe-integer.js","./modules/es6.number.parse-float":"node_modules/core-js/modules/es6.number.parse-float.js","./modules/es6.number.parse-int":"node_modules/core-js/modules/es6.number.parse-int.js","./modules/es6.math.acosh":"node_modules/core-js/modules/es6.math.acosh.js","./modules/es6.math.asinh":"node_modules/core-js/modules/es6.math.asinh.js","./modules/es6.math.atanh":"node_modules/core-js/modules/es6.math.atanh.js","./modules/es6.math.cbrt":"node_modules/core-js/modules/es6.math.cbrt.js","./modules/es6.math.clz32":"node_modules/core-js/modules/es6.math.clz32.js","./modules/es6.math.cosh":"node_modules/core-js/modules/es6.math.cosh.js","./modules/es6.math.expm1":"node_modules/core-js/modules/es6.math.expm1.js","./modules/es6.math.fround":"node_modules/core-js/modules/es6.math.fround.js","./modules/es6.math.hypot":"node_modules/core-js/modules/es6.math.hypot.js","./modules/es6.math.imul":"node_modules/core-js/modules/es6.math.imul.js","./modules/es6.math.log10":"node_modules/core-js/modules/es6.math.log10.js","./modules/es6.math.log1p":"node_modules/core-js/modules/es6.math.log1p.js","./modules/es6.math.log2":"node_modules/core-js/modules/es6.math.log2.js","./modules/es6.math.sign":"node_modules/core-js/modules/es6.math.sign.js","./modules/es6.math.sinh":"node_modules/core-js/modules/es6.math.sinh.js","./modules/es6.math.tanh":"node_modules/core-js/modules/es6.math.tanh.js","./modules/es6.math.trunc":"node_modules/core-js/modules/es6.math.trunc.js","./modules/es6.string.from-code-point":"node_modules/core-js/modules/es6.string.from-code-point.js","./modules/es6.string.raw":"node_modules/core-js/modules/es6.string.raw.js","./modules/es6.string.trim":"node_modules/core-js/modules/es6.string.trim.js","./modules/es6.string.iterator":"node_modules/core-js/modules/es6.string.iterator.js","./modules/es6.string.code-point-at":"node_modules/core-js/modules/es6.string.code-point-at.js","./modules/es6.string.ends-with":"node_modules/core-js/modules/es6.string.ends-with.js","./modules/es6.string.includes":"node_modules/core-js/modules/es6.string.includes.js","./modules/es6.string.repeat":"node_modules/core-js/modules/es6.string.repeat.js","./modules/es6.string.starts-with":"node_modules/core-js/modules/es6.string.starts-with.js","./modules/es6.string.anchor":"node_modules/core-js/modules/es6.string.anchor.js","./modules/es6.string.big":"node_modules/core-js/modules/es6.string.big.js","./modules/es6.string.blink":"node_modules/core-js/modules/es6.string.blink.js","./modules/es6.string.bold":"node_modules/core-js/modules/es6.string.bold.js","./modules/es6.string.fixed":"node_modules/core-js/modules/es6.string.fixed.js","./modules/es6.string.fontcolor":"node_modules/core-js/modules/es6.string.fontcolor.js","./modules/es6.string.fontsize":"node_modules/core-js/modules/es6.string.fontsize.js","./modules/es6.string.italics":"node_modules/core-js/modules/es6.string.italics.js","./modules/es6.string.link":"node_modules/core-js/modules/es6.string.link.js","./modules/es6.string.small":"node_modules/core-js/modules/es6.string.small.js","./modules/es6.string.strike":"node_modules/core-js/modules/es6.string.strike.js","./modules/es6.string.sub":"node_modules/core-js/modules/es6.string.sub.js","./modules/es6.string.sup":"node_modules/core-js/modules/es6.string.sup.js","./modules/es6.date.now":"node_modules/core-js/modules/es6.date.now.js","./modules/es6.date.to-json":"node_modules/core-js/modules/es6.date.to-json.js","./modules/es6.date.to-iso-string":"node_modules/core-js/modules/es6.date.to-iso-string.js","./modules/es6.date.to-string":"node_modules/core-js/modules/es6.date.to-string.js","./modules/es6.date.to-primitive":"node_modules/core-js/modules/es6.date.to-primitive.js","./modules/es6.array.is-array":"node_modules/core-js/modules/es6.array.is-array.js","./modules/es6.array.from":"node_modules/core-js/modules/es6.array.from.js","./modules/es6.array.of":"node_modules/core-js/modules/es6.array.of.js","./modules/es6.array.join":"node_modules/core-js/modules/es6.array.join.js","./modules/es6.array.slice":"node_modules/core-js/modules/es6.array.slice.js","./modules/es6.array.sort":"node_modules/core-js/modules/es6.array.sort.js","./modules/es6.array.for-each":"node_modules/core-js/modules/es6.array.for-each.js","./modules/es6.array.map":"node_modules/core-js/modules/es6.array.map.js","./modules/es6.array.filter":"node_modules/core-js/modules/es6.array.filter.js","./modules/es6.array.some":"node_modules/core-js/modules/es6.array.some.js","./modules/es6.array.every":"node_modules/core-js/modules/es6.array.every.js","./modules/es6.array.reduce":"node_modules/core-js/modules/es6.array.reduce.js","./modules/es6.array.reduce-right":"node_modules/core-js/modules/es6.array.reduce-right.js","./modules/es6.array.index-of":"node_modules/core-js/modules/es6.array.index-of.js","./modules/es6.array.last-index-of":"node_modules/core-js/modules/es6.array.last-index-of.js","./modules/es6.array.copy-within":"node_modules/core-js/modules/es6.array.copy-within.js","./modules/es6.array.fill":"node_modules/core-js/modules/es6.array.fill.js","./modules/es6.array.find":"node_modules/core-js/modules/es6.array.find.js","./modules/es6.array.find-index":"node_modules/core-js/modules/es6.array.find-index.js","./modules/es6.array.species":"node_modules/core-js/modules/es6.array.species.js","./modules/es6.array.iterator":"node_modules/core-js/modules/es6.array.iterator.js","./modules/es6.regexp.constructor":"node_modules/core-js/modules/es6.regexp.constructor.js","./modules/es6.regexp.exec":"node_modules/core-js/modules/es6.regexp.exec.js","./modules/es6.regexp.to-string":"node_modules/core-js/modules/es6.regexp.to-string.js","./modules/es6.regexp.flags":"node_modules/core-js/modules/es6.regexp.flags.js","./modules/es6.regexp.match":"node_modules/core-js/modules/es6.regexp.match.js","./modules/es6.regexp.replace":"node_modules/core-js/modules/es6.regexp.replace.js","./modules/es6.regexp.search":"node_modules/core-js/modules/es6.regexp.search.js","./modules/es6.regexp.split":"node_modules/core-js/modules/es6.regexp.split.js","./modules/es6.promise":"node_modules/core-js/modules/es6.promise.js","./modules/es6.map":"node_modules/core-js/modules/es6.map.js","./modules/es6.set":"node_modules/core-js/modules/es6.set.js","./modules/es6.weak-map":"node_modules/core-js/modules/es6.weak-map.js","./modules/es6.weak-set":"node_modules/core-js/modules/es6.weak-set.js","./modules/es6.typed.array-buffer":"node_modules/core-js/modules/es6.typed.array-buffer.js","./modules/es6.typed.data-view":"node_modules/core-js/modules/es6.typed.data-view.js","./modules/es6.typed.int8-array":"node_modules/core-js/modules/es6.typed.int8-array.js","./modules/es6.typed.uint8-array":"node_modules/core-js/modules/es6.typed.uint8-array.js","./modules/es6.typed.uint8-clamped-array":"node_modules/core-js/modules/es6.typed.uint8-clamped-array.js","./modules/es6.typed.int16-array":"node_modules/core-js/modules/es6.typed.int16-array.js","./modules/es6.typed.uint16-array":"node_modules/core-js/modules/es6.typed.uint16-array.js","./modules/es6.typed.int32-array":"node_modules/core-js/modules/es6.typed.int32-array.js","./modules/es6.typed.uint32-array":"node_modules/core-js/modules/es6.typed.uint32-array.js","./modules/es6.typed.float32-array":"node_modules/core-js/modules/es6.typed.float32-array.js","./modules/es6.typed.float64-array":"node_modules/core-js/modules/es6.typed.float64-array.js","./modules/es6.reflect.apply":"node_modules/core-js/modules/es6.reflect.apply.js","./modules/es6.reflect.construct":"node_modules/core-js/modules/es6.reflect.construct.js","./modules/es6.reflect.define-property":"node_modules/core-js/modules/es6.reflect.define-property.js","./modules/es6.reflect.delete-property":"node_modules/core-js/modules/es6.reflect.delete-property.js","./modules/es6.reflect.enumerate":"node_modules/core-js/modules/es6.reflect.enumerate.js","./modules/es6.reflect.get":"node_modules/core-js/modules/es6.reflect.get.js","./modules/es6.reflect.get-own-property-descriptor":"node_modules/core-js/modules/es6.reflect.get-own-property-descriptor.js","./modules/es6.reflect.get-prototype-of":"node_modules/core-js/modules/es6.reflect.get-prototype-of.js","./modules/es6.reflect.has":"node_modules/core-js/modules/es6.reflect.has.js","./modules/es6.reflect.is-extensible":"node_modules/core-js/modules/es6.reflect.is-extensible.js","./modules/es6.reflect.own-keys":"node_modules/core-js/modules/es6.reflect.own-keys.js","./modules/es6.reflect.prevent-extensions":"node_modules/core-js/modules/es6.reflect.prevent-extensions.js","./modules/es6.reflect.set":"node_modules/core-js/modules/es6.reflect.set.js","./modules/es6.reflect.set-prototype-of":"node_modules/core-js/modules/es6.reflect.set-prototype-of.js","./modules/es7.array.includes":"node_modules/core-js/modules/es7.array.includes.js","./modules/es7.array.flat-map":"node_modules/core-js/modules/es7.array.flat-map.js","./modules/es7.array.flatten":"node_modules/core-js/modules/es7.array.flatten.js","./modules/es7.string.at":"node_modules/core-js/modules/es7.string.at.js","./modules/es7.string.pad-start":"node_modules/core-js/modules/es7.string.pad-start.js","./modules/es7.string.pad-end":"node_modules/core-js/modules/es7.string.pad-end.js","./modules/es7.string.trim-left":"node_modules/core-js/modules/es7.string.trim-left.js","./modules/es7.string.trim-right":"node_modules/core-js/modules/es7.string.trim-right.js","./modules/es7.string.match-all":"node_modules/core-js/modules/es7.string.match-all.js","./modules/es7.symbol.async-iterator":"node_modules/core-js/modules/es7.symbol.async-iterator.js","./modules/es7.symbol.observable":"node_modules/core-js/modules/es7.symbol.observable.js","./modules/es7.object.get-own-property-descriptors":"node_modules/core-js/modules/es7.object.get-own-property-descriptors.js","./modules/es7.object.values":"node_modules/core-js/modules/es7.object.values.js","./modules/es7.object.entries":"node_modules/core-js/modules/es7.object.entries.js","./modules/es7.object.define-getter":"node_modules/core-js/modules/es7.object.define-getter.js","./modules/es7.object.define-setter":"node_modules/core-js/modules/es7.object.define-setter.js","./modules/es7.object.lookup-getter":"node_modules/core-js/modules/es7.object.lookup-getter.js","./modules/es7.object.lookup-setter":"node_modules/core-js/modules/es7.object.lookup-setter.js","./modules/es7.map.to-json":"node_modules/core-js/modules/es7.map.to-json.js","./modules/es7.set.to-json":"node_modules/core-js/modules/es7.set.to-json.js","./modules/es7.map.of":"node_modules/core-js/modules/es7.map.of.js","./modules/es7.set.of":"node_modules/core-js/modules/es7.set.of.js","./modules/es7.weak-map.of":"node_modules/core-js/modules/es7.weak-map.of.js","./modules/es7.weak-set.of":"node_modules/core-js/modules/es7.weak-set.of.js","./modules/es7.map.from":"node_modules/core-js/modules/es7.map.from.js","./modules/es7.set.from":"node_modules/core-js/modules/es7.set.from.js","./modules/es7.weak-map.from":"node_modules/core-js/modules/es7.weak-map.from.js","./modules/es7.weak-set.from":"node_modules/core-js/modules/es7.weak-set.from.js","./modules/es7.global":"node_modules/core-js/modules/es7.global.js","./modules/es7.system.global":"node_modules/core-js/modules/es7.system.global.js","./modules/es7.error.is-error":"node_modules/core-js/modules/es7.error.is-error.js","./modules/es7.math.clamp":"node_modules/core-js/modules/es7.math.clamp.js","./modules/es7.math.deg-per-rad":"node_modules/core-js/modules/es7.math.deg-per-rad.js","./modules/es7.math.degrees":"node_modules/core-js/modules/es7.math.degrees.js","./modules/es7.math.fscale":"node_modules/core-js/modules/es7.math.fscale.js","./modules/es7.math.iaddh":"node_modules/core-js/modules/es7.math.iaddh.js","./modules/es7.math.isubh":"node_modules/core-js/modules/es7.math.isubh.js","./modules/es7.math.imulh":"node_modules/core-js/modules/es7.math.imulh.js","./modules/es7.math.rad-per-deg":"node_modules/core-js/modules/es7.math.rad-per-deg.js","./modules/es7.math.radians":"node_modules/core-js/modules/es7.math.radians.js","./modules/es7.math.scale":"node_modules/core-js/modules/es7.math.scale.js","./modules/es7.math.umulh":"node_modules/core-js/modules/es7.math.umulh.js","./modules/es7.math.signbit":"node_modules/core-js/modules/es7.math.signbit.js","./modules/es7.promise.finally":"node_modules/core-js/modules/es7.promise.finally.js","./modules/es7.promise.try":"node_modules/core-js/modules/es7.promise.try.js","./modules/es7.reflect.define-metadata":"node_modules/core-js/modules/es7.reflect.define-metadata.js","./modules/es7.reflect.delete-metadata":"node_modules/core-js/modules/es7.reflect.delete-metadata.js","./modules/es7.reflect.get-metadata":"node_modules/core-js/modules/es7.reflect.get-metadata.js","./modules/es7.reflect.get-metadata-keys":"node_modules/core-js/modules/es7.reflect.get-metadata-keys.js","./modules/es7.reflect.get-own-metadata":"node_modules/core-js/modules/es7.reflect.get-own-metadata.js","./modules/es7.reflect.get-own-metadata-keys":"node_modules/core-js/modules/es7.reflect.get-own-metadata-keys.js","./modules/es7.reflect.has-metadata":"node_modules/core-js/modules/es7.reflect.has-metadata.js","./modules/es7.reflect.has-own-metadata":"node_modules/core-js/modules/es7.reflect.has-own-metadata.js","./modules/es7.reflect.metadata":"node_modules/core-js/modules/es7.reflect.metadata.js","./modules/es7.asap":"node_modules/core-js/modules/es7.asap.js","./modules/es7.observable":"node_modules/core-js/modules/es7.observable.js","./modules/web.timers":"node_modules/core-js/modules/web.timers.js","./modules/web.immediate":"node_modules/core-js/modules/web.immediate.js","./modules/web.dom.iterable":"node_modules/core-js/modules/web.dom.iterable.js","./modules/_core":"node_modules/core-js/modules/_core.js"}],"node_modules/regenerator-runtime/runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 /**
  * Copyright (c) 2014, Facebook, Inc.
@@ -8107,7 +8107,79 @@ define(String.prototype, "padRight", "".padEnd);
 "pop,reverse,shift,keys,values,entries,indexOf,every,some,forEach,map,filter,find,findIndex,includes,join,slice,concat,push,splice,unshift,sort,lastIndexOf,reduce,reduceRight,copyWithin,fill".split(",").forEach(function (key) {
   [][key] && define(Array, key, Function.call.bind([][key]));
 });
-},{"core-js/shim":"node_modules/core-js/shim.js","regenerator-runtime/runtime":"node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js","core-js/fn/regexp/escape":"node_modules/core-js/fn/regexp/escape.js"}],"node_modules/parcel-bundler/src/builtins/_empty.js":[function(require,module,exports) {
+},{"core-js/shim":"node_modules/core-js/shim.js","regenerator-runtime/runtime":"node_modules/regenerator-runtime/runtime.js","core-js/fn/regexp/escape":"node_modules/core-js/fn/regexp/escape.js"}],"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+var bundleURL = null;
+
+function getBundleURLCached() {
+  if (!bundleURL) {
+    bundleURL = getBundleURL();
+  }
+
+  return bundleURL;
+}
+
+function getBundleURL() {
+  // Attempt to find the URL of the current script and use that as the base URL
+  try {
+    throw new Error();
+  } catch (err) {
+    var matches = ('' + err.stack).match(/(https?|file|ftp|chrome-extension|moz-extension):\/\/[^)\n]+/g);
+
+    if (matches) {
+      return getBaseURL(matches[0]);
+    }
+  }
+
+  return '/';
+}
+
+function getBaseURL(url) {
+  return ('' + url).replace(/^((?:https?|file|ftp|chrome-extension|moz-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
+}
+
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+},{}],"node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+var bundle = require('./bundle-url');
+
+function updateLink(link) {
+  var newLink = link.cloneNode();
+
+  newLink.onload = function () {
+    link.remove();
+  };
+
+  newLink.href = link.href.split('?')[0] + '?' + Date.now();
+  link.parentNode.insertBefore(newLink, link.nextSibling);
+}
+
+var cssTimeout = null;
+
+function reloadCSS() {
+  if (cssTimeout) {
+    return;
+  }
+
+  cssTimeout = setTimeout(function () {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+
+    for (var i = 0; i < links.length; i++) {
+      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
+        updateLink(links[i]);
+      }
+    }
+
+    cssTimeout = null;
+  }, 50);
+}
+
+module.exports = reloadCSS;
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"style.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/_empty.js":[function(require,module,exports) {
 
 },{}],"node_modules/base64-js/index.js":[function(require,module,exports) {
 'use strict'
@@ -12118,7 +12190,7 @@ Duplex.prototype._destroy = function (err, cb) {
 
   pna.nextTick(cb, err);
 };
-},{"process-nextick-args":"node_modules/process-nextick-args/index.js","core-util-is":"node_modules/core-util-is/lib/util.js","inherits":"node_modules/inherits/inherits_browser.js","./_stream_readable":"node_modules/readable-stream/lib/_stream_readable.js","./_stream_writable":"node_modules/readable-stream/lib/_stream_writable.js"}],"node_modules/string_decoder/lib/string_decoder.js":[function(require,module,exports) {
+},{"process-nextick-args":"node_modules/process-nextick-args/index.js","core-util-is":"node_modules/core-util-is/lib/util.js","inherits":"node_modules/inherits/inherits_browser.js","./_stream_readable":"node_modules/readable-stream/lib/_stream_readable.js","./_stream_writable":"node_modules/readable-stream/lib/_stream_writable.js"}],"node_modules/readable-stream/node_modules/string_decoder/lib/string_decoder.js":[function(require,module,exports) {
 
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -13439,7 +13511,7 @@ function indexOf(xs, x) {
   }
   return -1;
 }
-},{"process-nextick-args":"node_modules/process-nextick-args/index.js","isarray":"node_modules/isarray/index.js","events":"node_modules/events/events.js","./internal/streams/stream":"node_modules/readable-stream/lib/internal/streams/stream-browser.js","safe-buffer":"node_modules/safe-buffer/index.js","core-util-is":"node_modules/core-util-is/lib/util.js","inherits":"node_modules/inherits/inherits_browser.js","util":"node_modules/parcel-bundler/src/builtins/_empty.js","./internal/streams/BufferList":"node_modules/readable-stream/lib/internal/streams/BufferList.js","./internal/streams/destroy":"node_modules/readable-stream/lib/internal/streams/destroy.js","./_stream_duplex":"node_modules/readable-stream/lib/_stream_duplex.js","string_decoder/":"node_modules/string_decoder/lib/string_decoder.js","process":"node_modules/process/browser.js"}],"node_modules/readable-stream/lib/_stream_transform.js":[function(require,module,exports) {
+},{"process-nextick-args":"node_modules/process-nextick-args/index.js","isarray":"node_modules/isarray/index.js","events":"node_modules/events/events.js","./internal/streams/stream":"node_modules/readable-stream/lib/internal/streams/stream-browser.js","safe-buffer":"node_modules/safe-buffer/index.js","core-util-is":"node_modules/core-util-is/lib/util.js","inherits":"node_modules/inherits/inherits_browser.js","util":"node_modules/parcel-bundler/src/builtins/_empty.js","./internal/streams/BufferList":"node_modules/readable-stream/lib/internal/streams/BufferList.js","./internal/streams/destroy":"node_modules/readable-stream/lib/internal/streams/destroy.js","./_stream_duplex":"node_modules/readable-stream/lib/_stream_duplex.js","string_decoder/":"node_modules/readable-stream/node_modules/string_decoder/lib/string_decoder.js","process":"node_modules/process/browser.js"}],"node_modules/readable-stream/lib/_stream_transform.js":[function(require,module,exports) {
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -15089,7 +15161,305 @@ exports.sha256 = require('./sha256')
 exports.sha384 = require('./sha384')
 exports.sha512 = require('./sha512')
 
-},{"./sha":"node_modules/sha.js/sha.js","./sha1":"node_modules/sha.js/sha1.js","./sha224":"node_modules/sha.js/sha224.js","./sha256":"node_modules/sha.js/sha256.js","./sha384":"node_modules/sha.js/sha384.js","./sha512":"node_modules/sha.js/sha512.js"}],"node_modules/cipher-base/index.js":[function(require,module,exports) {
+},{"./sha":"node_modules/sha.js/sha.js","./sha1":"node_modules/sha.js/sha1.js","./sha224":"node_modules/sha.js/sha224.js","./sha256":"node_modules/sha.js/sha256.js","./sha384":"node_modules/sha.js/sha384.js","./sha512":"node_modules/sha.js/sha512.js"}],"node_modules/string_decoder/lib/string_decoder.js":[function(require,module,exports) {
+
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+'use strict';
+
+/*<replacement>*/
+
+var Buffer = require('safe-buffer').Buffer;
+/*</replacement>*/
+
+var isEncoding = Buffer.isEncoding || function (encoding) {
+  encoding = '' + encoding;
+  switch (encoding && encoding.toLowerCase()) {
+    case 'hex':case 'utf8':case 'utf-8':case 'ascii':case 'binary':case 'base64':case 'ucs2':case 'ucs-2':case 'utf16le':case 'utf-16le':case 'raw':
+      return true;
+    default:
+      return false;
+  }
+};
+
+function _normalizeEncoding(enc) {
+  if (!enc) return 'utf8';
+  var retried;
+  while (true) {
+    switch (enc) {
+      case 'utf8':
+      case 'utf-8':
+        return 'utf8';
+      case 'ucs2':
+      case 'ucs-2':
+      case 'utf16le':
+      case 'utf-16le':
+        return 'utf16le';
+      case 'latin1':
+      case 'binary':
+        return 'latin1';
+      case 'base64':
+      case 'ascii':
+      case 'hex':
+        return enc;
+      default:
+        if (retried) return; // undefined
+        enc = ('' + enc).toLowerCase();
+        retried = true;
+    }
+  }
+};
+
+// Do not cache `Buffer.isEncoding` when checking encoding names as some
+// modules monkey-patch it to support additional encodings
+function normalizeEncoding(enc) {
+  var nenc = _normalizeEncoding(enc);
+  if (typeof nenc !== 'string' && (Buffer.isEncoding === isEncoding || !isEncoding(enc))) throw new Error('Unknown encoding: ' + enc);
+  return nenc || enc;
+}
+
+// StringDecoder provides an interface for efficiently splitting a series of
+// buffers into a series of JS strings without breaking apart multi-byte
+// characters.
+exports.StringDecoder = StringDecoder;
+function StringDecoder(encoding) {
+  this.encoding = normalizeEncoding(encoding);
+  var nb;
+  switch (this.encoding) {
+    case 'utf16le':
+      this.text = utf16Text;
+      this.end = utf16End;
+      nb = 4;
+      break;
+    case 'utf8':
+      this.fillLast = utf8FillLast;
+      nb = 4;
+      break;
+    case 'base64':
+      this.text = base64Text;
+      this.end = base64End;
+      nb = 3;
+      break;
+    default:
+      this.write = simpleWrite;
+      this.end = simpleEnd;
+      return;
+  }
+  this.lastNeed = 0;
+  this.lastTotal = 0;
+  this.lastChar = Buffer.allocUnsafe(nb);
+}
+
+StringDecoder.prototype.write = function (buf) {
+  if (buf.length === 0) return '';
+  var r;
+  var i;
+  if (this.lastNeed) {
+    r = this.fillLast(buf);
+    if (r === undefined) return '';
+    i = this.lastNeed;
+    this.lastNeed = 0;
+  } else {
+    i = 0;
+  }
+  if (i < buf.length) return r ? r + this.text(buf, i) : this.text(buf, i);
+  return r || '';
+};
+
+StringDecoder.prototype.end = utf8End;
+
+// Returns only complete characters in a Buffer
+StringDecoder.prototype.text = utf8Text;
+
+// Attempts to complete a partial non-UTF-8 character using bytes from a Buffer
+StringDecoder.prototype.fillLast = function (buf) {
+  if (this.lastNeed <= buf.length) {
+    buf.copy(this.lastChar, this.lastTotal - this.lastNeed, 0, this.lastNeed);
+    return this.lastChar.toString(this.encoding, 0, this.lastTotal);
+  }
+  buf.copy(this.lastChar, this.lastTotal - this.lastNeed, 0, buf.length);
+  this.lastNeed -= buf.length;
+};
+
+// Checks the type of a UTF-8 byte, whether it's ASCII, a leading byte, or a
+// continuation byte. If an invalid byte is detected, -2 is returned.
+function utf8CheckByte(byte) {
+  if (byte <= 0x7F) return 0;else if (byte >> 5 === 0x06) return 2;else if (byte >> 4 === 0x0E) return 3;else if (byte >> 3 === 0x1E) return 4;
+  return byte >> 6 === 0x02 ? -1 : -2;
+}
+
+// Checks at most 3 bytes at the end of a Buffer in order to detect an
+// incomplete multi-byte UTF-8 character. The total number of bytes (2, 3, or 4)
+// needed to complete the UTF-8 character (if applicable) are returned.
+function utf8CheckIncomplete(self, buf, i) {
+  var j = buf.length - 1;
+  if (j < i) return 0;
+  var nb = utf8CheckByte(buf[j]);
+  if (nb >= 0) {
+    if (nb > 0) self.lastNeed = nb - 1;
+    return nb;
+  }
+  if (--j < i || nb === -2) return 0;
+  nb = utf8CheckByte(buf[j]);
+  if (nb >= 0) {
+    if (nb > 0) self.lastNeed = nb - 2;
+    return nb;
+  }
+  if (--j < i || nb === -2) return 0;
+  nb = utf8CheckByte(buf[j]);
+  if (nb >= 0) {
+    if (nb > 0) {
+      if (nb === 2) nb = 0;else self.lastNeed = nb - 3;
+    }
+    return nb;
+  }
+  return 0;
+}
+
+// Validates as many continuation bytes for a multi-byte UTF-8 character as
+// needed or are available. If we see a non-continuation byte where we expect
+// one, we "replace" the validated continuation bytes we've seen so far with
+// a single UTF-8 replacement character ('\ufffd'), to match v8's UTF-8 decoding
+// behavior. The continuation byte check is included three times in the case
+// where all of the continuation bytes for a character exist in the same buffer.
+// It is also done this way as a slight performance increase instead of using a
+// loop.
+function utf8CheckExtraBytes(self, buf, p) {
+  if ((buf[0] & 0xC0) !== 0x80) {
+    self.lastNeed = 0;
+    return '\ufffd';
+  }
+  if (self.lastNeed > 1 && buf.length > 1) {
+    if ((buf[1] & 0xC0) !== 0x80) {
+      self.lastNeed = 1;
+      return '\ufffd';
+    }
+    if (self.lastNeed > 2 && buf.length > 2) {
+      if ((buf[2] & 0xC0) !== 0x80) {
+        self.lastNeed = 2;
+        return '\ufffd';
+      }
+    }
+  }
+}
+
+// Attempts to complete a multi-byte UTF-8 character using bytes from a Buffer.
+function utf8FillLast(buf) {
+  var p = this.lastTotal - this.lastNeed;
+  var r = utf8CheckExtraBytes(this, buf, p);
+  if (r !== undefined) return r;
+  if (this.lastNeed <= buf.length) {
+    buf.copy(this.lastChar, p, 0, this.lastNeed);
+    return this.lastChar.toString(this.encoding, 0, this.lastTotal);
+  }
+  buf.copy(this.lastChar, p, 0, buf.length);
+  this.lastNeed -= buf.length;
+}
+
+// Returns all complete UTF-8 characters in a Buffer. If the Buffer ended on a
+// partial character, the character's bytes are buffered until the required
+// number of bytes are available.
+function utf8Text(buf, i) {
+  var total = utf8CheckIncomplete(this, buf, i);
+  if (!this.lastNeed) return buf.toString('utf8', i);
+  this.lastTotal = total;
+  var end = buf.length - (total - this.lastNeed);
+  buf.copy(this.lastChar, 0, end);
+  return buf.toString('utf8', i, end);
+}
+
+// For UTF-8, a replacement character is added when ending on a partial
+// character.
+function utf8End(buf) {
+  var r = buf && buf.length ? this.write(buf) : '';
+  if (this.lastNeed) return r + '\ufffd';
+  return r;
+}
+
+// UTF-16LE typically needs two bytes per character, but even if we have an even
+// number of bytes available, we need to check if we end on a leading/high
+// surrogate. In that case, we need to wait for the next two bytes in order to
+// decode the last character properly.
+function utf16Text(buf, i) {
+  if ((buf.length - i) % 2 === 0) {
+    var r = buf.toString('utf16le', i);
+    if (r) {
+      var c = r.charCodeAt(r.length - 1);
+      if (c >= 0xD800 && c <= 0xDBFF) {
+        this.lastNeed = 2;
+        this.lastTotal = 4;
+        this.lastChar[0] = buf[buf.length - 2];
+        this.lastChar[1] = buf[buf.length - 1];
+        return r.slice(0, -1);
+      }
+    }
+    return r;
+  }
+  this.lastNeed = 1;
+  this.lastTotal = 2;
+  this.lastChar[0] = buf[buf.length - 1];
+  return buf.toString('utf16le', i, buf.length - 1);
+}
+
+// For UTF-16LE we do not explicitly append special replacement characters if we
+// end on a partial character, we simply let v8 handle that.
+function utf16End(buf) {
+  var r = buf && buf.length ? this.write(buf) : '';
+  if (this.lastNeed) {
+    var end = this.lastTotal - this.lastNeed;
+    return r + this.lastChar.toString('utf16le', 0, end);
+  }
+  return r;
+}
+
+function base64Text(buf, i) {
+  var n = (buf.length - i) % 3;
+  if (n === 0) return buf.toString('base64', i);
+  this.lastNeed = 3 - n;
+  this.lastTotal = 3;
+  if (n === 1) {
+    this.lastChar[0] = buf[buf.length - 1];
+  } else {
+    this.lastChar[0] = buf[buf.length - 2];
+    this.lastChar[1] = buf[buf.length - 1];
+  }
+  return buf.toString('base64', i, buf.length - n);
+}
+
+function base64End(buf) {
+  var r = buf && buf.length ? this.write(buf) : '';
+  if (this.lastNeed) return r + this.lastChar.toString('base64', 0, 3 - this.lastNeed);
+  return r;
+}
+
+// Pass bytes on through for single-byte encodings (e.g. ascii, latin1, hex)
+function simpleWrite(buf) {
+  return buf.toString(this.encoding);
+}
+
+function simpleEnd(buf) {
+  return buf && buf.length ? this.write(buf) : '';
+}
+},{"safe-buffer":"node_modules/safe-buffer/index.js"}],"node_modules/cipher-base/index.js":[function(require,module,exports) {
 
 var Buffer = require('safe-buffer').Buffer
 var Transform = require('stream').Transform
@@ -21832,53 +22202,37 @@ function getr(priv) {
 
 },{"bn.js":"node_modules/bn.js/lib/bn.js","randombytes":"node_modules/randombytes/browser.js","buffer":"node_modules/buffer/index.js"}],"node_modules/elliptic/package.json":[function(require,module,exports) {
 module.exports = {
-  "_args": [
-    [
-      "elliptic@6.4.1",
-      "/Users/fazlagida/Desktop/Projects/human-computer-interaction/audio-recognition-tfjs"
-    ]
+  "name": "elliptic",
+  "version": "6.4.1",
+  "description": "EC cryptography",
+  "main": "lib/elliptic.js",
+  "files": [
+    "lib"
   ],
-  "_development": true,
-  "_from": "elliptic@6.4.1",
-  "_id": "elliptic@6.4.1",
-  "_inBundle": false,
-  "_integrity": "sha512-BsXLz5sqX8OHcsh7CqBMztyXARmGQ3LWPtGjJi6DiJHq5C/qvi9P3OqgswKSDftbu8+IoI/QDTAm2fFnQ9SZSQ==",
-  "_location": "/elliptic",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "elliptic@6.4.1",
-    "name": "elliptic",
-    "escapedName": "elliptic",
-    "rawSpec": "6.4.1",
-    "saveSpec": null,
-    "fetchSpec": "6.4.1"
+  "scripts": {
+    "jscs": "jscs benchmarks/*.js lib/*.js lib/**/*.js lib/**/**/*.js test/index.js",
+    "jshint": "jscs benchmarks/*.js lib/*.js lib/**/*.js lib/**/**/*.js test/index.js",
+    "lint": "npm run jscs && npm run jshint",
+    "unit": "istanbul test _mocha --reporter=spec test/index.js",
+    "test": "npm run lint && npm run unit",
+    "version": "grunt dist && git add dist/"
   },
-  "_requiredBy": [
-    "/browserify-sign",
-    "/create-ecdh"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:indutny/elliptic"
+  },
+  "keywords": [
+    "EC",
+    "Elliptic",
+    "curve",
+    "Cryptography"
   ],
-  "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.1.tgz",
-  "_spec": "6.4.1",
-  "_where": "/Users/fazlagida/Desktop/Projects/human-computer-interaction/audio-recognition-tfjs",
-  "author": {
-    "name": "Fedor Indutny",
-    "email": "fedor@indutny.com"
-  },
+  "author": "Fedor Indutny <fedor@indutny.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/indutny/elliptic/issues"
   },
-  "dependencies": {
-    "bn.js": "^4.4.0",
-    "brorand": "^1.0.1",
-    "hash.js": "^1.0.0",
-    "hmac-drbg": "^1.0.0",
-    "inherits": "^2.0.1",
-    "minimalistic-assert": "^1.0.0",
-    "minimalistic-crypto-utils": "^1.0.0"
-  },
-  "description": "EC cryptography",
+  "homepage": "https://github.com/indutny/elliptic",
   "devDependencies": {
     "brfs": "^1.4.3",
     "coveralls": "^2.11.3",
@@ -21895,32 +22249,15 @@ module.exports = {
     "jshint": "^2.6.0",
     "mocha": "^2.1.0"
   },
-  "files": [
-    "lib"
-  ],
-  "homepage": "https://github.com/indutny/elliptic",
-  "keywords": [
-    "EC",
-    "Elliptic",
-    "curve",
-    "Cryptography"
-  ],
-  "license": "MIT",
-  "main": "lib/elliptic.js",
-  "name": "elliptic",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/indutny/elliptic.git"
-  },
-  "scripts": {
-    "jscs": "jscs benchmarks/*.js lib/*.js lib/**/*.js lib/**/**/*.js test/index.js",
-    "jshint": "jscs benchmarks/*.js lib/*.js lib/**/*.js lib/**/**/*.js test/index.js",
-    "lint": "npm run jscs && npm run jshint",
-    "test": "npm run lint && npm run unit",
-    "unit": "istanbul test _mocha --reporter=spec test/index.js",
-    "version": "grunt dist && git add dist/"
-  },
-  "version": "6.4.1"
+  "dependencies": {
+    "bn.js": "^4.4.0",
+    "brorand": "^1.0.1",
+    "hash.js": "^1.0.0",
+    "hmac-drbg": "^1.0.0",
+    "inherits": "^2.0.1",
+    "minimalistic-assert": "^1.0.0",
+    "minimalistic-crypto-utils": "^1.0.0"
+  }
 }
 ;
 },{}],"node_modules/minimalistic-crypto-utils/lib/utils.js":[function(require,module,exports) {
@@ -64289,6 +64626,8 @@ require("babel-core/register");
 
 require("babel-polyfill");
 
+require("./style.scss");
+
 var speechCommands = require('@tensorflow-models/speech-commands');
 
 var recognizer;
@@ -64357,11 +64696,11 @@ function () {
             // Create canvas for drawing and center the drawer
             canvas = document.getElementById("canvas");
             context = canvas.getContext("2d");
-            positionx = 400; // Since canvas width set to 800px
+            positionx = canvas.width / 2; // Since canvas width set to 800px
 
-            positiony = 300; // Since canvas height set to 600px
+            positiony = canvas.height / 2; // Since canvas height set to 600px
 
-            context.lineWidth = 10;
+            context.lineWidth = canvas.width / 80 > 2 ? canvas.width / 100 : 2;
             context.lineJoin = 'round';
             predict(context, positionx, positiony);
 
@@ -64380,7 +64719,7 @@ function () {
 
 
 run();
-},{"babel-core/register":"node_modules/babel-core/register.js","babel-polyfill":"node_modules/babel-polyfill/lib/index.js","@tensorflow-models/speech-commands":"node_modules/@tensorflow-models/speech-commands/dist/speech-commands.esm.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"babel-core/register":"node_modules/babel-core/register.js","babel-polyfill":"node_modules/babel-polyfill/lib/index.js","./style.scss":"style.scss","@tensorflow-models/speech-commands":"node_modules/@tensorflow-models/speech-commands/dist/speech-commands.esm.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -64408,7 +64747,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62905" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49582" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
