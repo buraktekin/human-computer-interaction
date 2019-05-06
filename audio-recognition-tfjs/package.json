@@ -1,29 +1,30 @@
 {
   "name": "audio-recognition-tfjs",
   "version": "0.0.1",
-  "description": "A Javascript based on-browser speech recognition application runs on node server. ",
-  "main": "bin/www/index.js",
-  "author": "Burak Tekin",
-  "license": "MIT",
+  "description": "An on-browser Tensorflow project which lets you draw on screen by the vocal commands",
+  "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest",
-    "start": "node ./bin/www",
-    "devstart": "nodemon ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "keywords": ["speech-recognition", "machine-learning", "tensorflowjs"],
+  "author": "Burak Tekin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "parcel-bundler": "^1.12.3"
   },
   "dependencies": {
+    "@tensorflow-models/speech-commands": "^0.3.6",
     "@tensorflow/tfjs": "^1.1.2",
     "@tensorflow/tfjs-node": "^1.1.2",
-    "eslint": "^5.16.0",
-    "express": "^4.16.4",
-    "jest": "^24.8.0",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "http-errors": "~1.6.2",
-    "morgan": "~1.9.0",
-    "pug": "2.0.0-beta11"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.0"
+    "foundation-sites": "^6.5.3",
+    "rollup": "^1.11.3"
   }
 }
